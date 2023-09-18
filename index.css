@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    color: #333; /* Default text color */
+}
+
+/* Add a complementary background color for the header */
+nav {
+    background-color: #333;
+    color: #fff; /* Text color for the header */
+}
+
+/* Style the header text */
+nav h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* Add some spacing between the header and the table */
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold; /* Make table headers bold for better readability */
+}
+
+/* Style the odd-numbered rows with a background color */
+table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* You can choose a background color of your choice */
+}
+
+
+#searchByName, #searchByCity {
+    margin-bottom: 10px;
+    padding: 5px; /* Add some padding to input fields */
+}
+
+/* Style the navigation bar with Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+/* Reset margin and padding for the ul element inside the navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Reset margin for the li elements within the navigation bar */
+nav li {
+    display: inline;
+    margin: 0; /* Reset margin to remove gaps */
+    margin-right: 20px;
+}
+
+/* Style the anchor links in the navigation menu */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+/* Change link color and background on hover */
+nav a:hover {
+    background-color: #555;
+}
+
+
+/* Style the highlighted rows with a soft green color */
+table tbody tr.highlighted {
+    background-color: #9ae69a; /* Soft green color */
+}
+
+/* Style the checkboxes */
+.highlight-checkbox {
+    margin: 0;
+}
+
+/* Style the checkboxes and center them within the cell */
+td input[type="checkbox"] {
+    margin: 0;
+    display: block; /* Make the checkbox a block-level element */
+    margin: auto; /* Center the checkbox horizontally within the cell */
+}

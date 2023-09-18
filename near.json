@@ -1,0 +1,87 @@
+[
+    {
+        "NORTH-SIDE":{
+            "ADDRESS":[
+                "BUHANGING",
+                "CABANTIAN",
+                "SASA",
+                "COMMUNAL",
+                "PANACAN",
+                "ÏNDANGAN",
+                "MUDIANG",
+                "KUMONAL",
+                "TIBUNGCO",
+                "BUNAWAN",
+                "LASANG",
+                "SAN ISIDRO",
+                "GATUNGAN",
+                "MANDUG",
+                "AGDAO"
+            ],
+            "SERVICE_CENTERS":[
+                "134K ELECTRICAL, REFRIGERATION AND AIRCONDITIONING SERVICES",
+                "AAC AIRCONDITIONING SERVICES",
+                "AIR-GT AIRCONDITIONING SERVICES",
+                "AIR-RITE AIRCONDITIONING AND REFRIGERATION SERVICES",
+                "CARESYSTEM TECHNOLOGY SOLUTION CO., INC.",
+                "EMCOR AGDAO",
+                "EMCOR HEAD OFFICE",
+                "DYNAPRO REF AND AIRCON SERVICES",
+                "GCC AIRE ENGINEERING SERVICES",
+                "INVERTAIRE AIRCONDITIONING AND REFRIGERATION CENTER",
+                "LDC REFRIGERATION & AIRCONDITIONING , INC.",
+                "JOGENSY REFRIGERATION AND AIRCONDITIONING SERVICES",
+                "MARVAN REQUILLO AIR-CONDITIONING SYSTEMS REPAIR SERVICES",
+                "SUBANG AIRCONDITIONING SYSTEM SERVICES"
+            ]
+        },
+        "SOUTH-SIDE":{
+            "ADDRESS":[
+                "MAA",
+                "MATINA",
+                "MATINA APLAYA",
+                "MATINA PANGI",
+                "BUCANA",
+                "TALOMO PROPER",
+                "TALOMO",
+                "BANGKAL",
+                "DUMOY",
+                "CATALUNAN GRANDE",
+                "CATALUNAN",
+                "CATALUNAN PEQUENO",
+                "TUGBOK",
+                "TACUNAN",
+                "CALINAN",
+                "BACACA"
+            ],
+            "SERVICE_CENTERS":[
+                "9497 BUSINESS VENTURES CORPORATION (SERBIS KING)",
+                "A2O AIRCONDITIONING SALES & SERVICES",
+                "ACE-SPECS AIRCONDITIONING SERVICES",
+                "AIR PROSYSTEM, INC.",
+                "AIRCOTEK APPLIANCE SERVICES",
+                "DAVAO REAC AIRCON & REF SERVICE CENTER",
+                "EL FRIO AIRCONDITIONING SERVICES INC",
+                "MODERN COOL CARE SERVICES",
+                "MOONSON AIR SYSTEM ENTERPRISES",
+                "RJJ HORSE POWER AIRCONDITIONING SERVICES",
+                "YRME REFREGERATION & AIRCONDITIONING SERVICES"
+            ]
+        },
+        "DOWNTOWN":{
+            "SERVICE_CENTERS":[
+                "AIRCOTEK APPLIANCE SERVICES",
+                "AIR-GT AIRCONDITIONING SERVICES",
+                "CARESYSTEM TECHNOLOGY SOLUTION CO., INC.",
+                "EMCOR AGDAO",
+                "EMCOR HEAD OFFICE",
+                "MODERN COOL CARE SERVICES",
+                "INVERTAIRE AIRCONDITIONING AND REFRIGERATION CENTER",
+                "AIR PROSYSTEM, INC.",
+                "MOONSON AIR SYSTEM ENTERPRISES",
+                "RJJ HORSE POWER AIRCONDITIONING SERVICES",
+                "GCC AIRE ENGINEERING SERVICES"
+            ]
+        }
+    }
+]

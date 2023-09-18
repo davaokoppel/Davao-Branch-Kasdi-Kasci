@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    color: #333; /* Default text color */
+}
+
+h1 {
+    color: #333;
+    font-size: 24px; /* Increase the font size for the header */
+    margin: 20px 0; /* Add some margin to separate it from other elements */
+}
+
+#container {
+    display: flex;
+    justify-content: space-between; /* Spread the two columns apart */
+    margin: 20px auto; /* Center the container and add some spacing */
+    max-width: 1000px; /* Limit the maximum width of the container */
+}
+
+#selectedServiceCenter,
+#serviceCenters {
+    flex: 1;
+    margin: 0 10px; /* Add some margin between the two columns */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px; /* Set a default font size */
+}
+
+#serviceTable {
+    width: 100%; /* Make the table take up the entire width of its container */
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px; /* Set a default font size for table text */
+}
+
+#serviceTable th,
+#serviceTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center; /* Center align text in table cells */
+}
+
+#serviceTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#serviceTable tbody tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Background color for odd rows */
+}
+
+/* Style the buttons */
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Style the navigation bar with Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 60px;
+}
+
+/* Reset margin and padding for the ul element inside the navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Reset margin for the li elements within the navigation bar */
+nav li {
+    display: inline;
+    margin: 0; /* Reset margin to remove gaps */
+    margin-right: 20px;
+}
+
+/* Style the anchor links in the navigation menu */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Style the active button with a different background color */
+.active {
+    background-color: #36a07d;
+    color: #fff;
+}

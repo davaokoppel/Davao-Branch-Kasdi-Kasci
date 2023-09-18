@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Centers</title>
+    <link rel="stylesheet" href="near.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap">
+
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">LISTS</a></li>
+            <li><a href="near.html">NEAR LOCATION</a></li>
+            <li><a href="#delivery-contacts">DELIVERY CONTACTS</a></li>
+        </ul>
+    </nav>
+
+    <h1>LOCATE NEAR SERVICE CENTERS</h1>
+    <div id="buttons">
+        <button id="northSideButton">NORTH-SIDE</button>
+        <button id="southSideButton">SOUTH-SIDE</button>
+        <button id="downtownButton">DOWNTOWN</button>
+    </div>
+    <div id="container">
+        <div id="serviceCenters">
+            <table id="serviceTable">
+                <thead>
+                    <tr>
+                        <th>Service Center</th>
+                        <th>Select</th> <!-- New column for selection -->
+                    </tr>
+                </thead>
+                <tbody id="serviceTableBody">
+                </tbody>
+            </table>
+        </div>
+    
+        <div id="selectedServiceCenter">
+            <button id="copyToClipboardButton">Copy to Clipboard</button> <!-- Add this button -->
+            <ul id="selectedServiceCentersList"></ul> <!-- Add this line -->
+        </div>
+    </div>
+    
+    
+    
+    <script src="near.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOPPEL DAVAO BRANCH</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&display=swap">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">LISTS</a></li>
+            <li><a href="near.html">NEAR LOCATION</a></li>
+            <li><a href="#delivery-contacts">DELIVERY CONTACTS</a></li>
+        </ul>
+    </nav>
+
+    <h1>DAVAO BRANCH KASDI/KASCI LISTS</h1>
+    
+    <!-- Input field for searching by Company Name -->
+    <input type="text" id="searchByName" placeholder="Search by Company Name">
+    
+    <!-- Input field for searching by City -->
+    <input type="text" id="searchByCity" placeholder="Search by City">
+
+    <button type="button" id="filter-button">Show Highlighted Rows</button>
+
+    <button type="button" id="remove-highlight-button">Remove Highlighted Rows</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Category</th>
+                <th>City</th>
+                <th>Address</th>
+                <th>Contact Numbers</th>
+                <th>Email Address</th>
+                <th>Highlight</th>
+            </tr>
+        </thead>
+        <tbody id="data-table-body">
+            <!-- Data will be dynamically inserted here using JavaScript -->
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
